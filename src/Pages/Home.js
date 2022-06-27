@@ -7,7 +7,7 @@ import { store } from './Details'
 
 const Home = () => {
 
-  const [detail, setDetail] = useContext(store);
+  const [detail] = useContext(store);
   return (
 
     <div>
@@ -18,12 +18,12 @@ const Home = () => {
         <Link to ="/Technology"><img src='https://thumbs.dreamstime.com/b/internet-information-technology-businessman-hand-showing-concept-75784736.jpg'/></Link>
       </div>
       <div className="home__sec">
-       <Link to="/fitness" > <img src="https://www.fitnessfirst.co.id/-/media/project/evolution-wellness/fitness-first/south-east-asia/malaysia/blog/start-exercising-again-after-a-long-break/start-exercising-again-after-a-long-break-tile.jpg" alt="not found" /></Link>
+       <Link to="/fitness" > <img src="https://www.fitnessfirst.co.id/-/media/project/evolution-wellness/fitness-first/south-east-asia/malaysia/blog/start-exercising-again-after-a-long-break/start-exercising-again-after-a-long-break-tile.jpg" /></Link>
        
       </div>
       </div>
       <div className="home__thir">
-      <Link to="/food" > <img src="https://stauntontasteofindia.com/x/cdn/?https://storage.googleapis.com/wzukusers/user-18599341/images/5bc7736664f3ddSihFB6/ThinkstockPhotos-177043240_d1000.jpg" width="900px"    alt="not found" /></Link>
+      <Link to="/food" > <img src="https://stauntontasteofindia.com/x/cdn/?https://storage.googleapis.com/wzukusers/user-18599341/images/5bc7736664f3ddSihFB6/ThinkstockPhotos-177043240_d1000.jpg" width="900px" /></Link>
 
           </div>
           <h1 style={{marginTop:"40px"}}>The Latest</h1>

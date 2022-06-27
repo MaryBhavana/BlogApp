@@ -3,7 +3,7 @@ import React, { createContext, useState } from 'react'
 export const store = createContext()
 
 const Details = (props) => {
-  const [details, setDetails] = useState([
+  const [details,setDetails] = useState([
     {
       "id": 1,
       "title": "Squid Game season 2 officially announced by Netflix, director Hwang Dong-hyuk shares details",
