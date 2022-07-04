@@ -26,6 +26,7 @@ const Details = (props) => {
       "category": "Movies",
       "description":"Nani and Nazriya Nazim starrer rom-com, as decided by its makers, had a summer release on June 10, 2022. Apart from the original (Telugu) version, the film was also dubbed in Tamil as Adade Sundara while in Malayalam under the title Aha Sundara.Despite being under-performed at BO, the film Ante Sundaraniki earned a lot of praise with lots of appreciation for the lead stars cast. Now it is reported that leading OTT platform Netflix has acquired the OTT rights of the film."
     },
+   
     {
       "id": 61,
       "title": "Ante Sundaraniki OTT Release Date, Where & When to Watch?",
@@ -217,6 +218,13 @@ const Details = (props) => {
     "title": "Badam Kulfi Recipe",
     "Image": "https://i.ndtvimg.com/i/2018-03/kulfi_620x350_51521531449.jpg",
     "category": "Food",
+    "description":"Badam Kulfi is a popular North Indian dessert recipe, which is loved by people of all age groups! This rich, creamy and delicious Badam Kulfi is not only tempting, but at the same time, it is the best thing to prepare in a jiffy as it doesn't take much time"
+  },
+  {
+    "id": 44,
+    "title": "Badam Kulfi Recipe",
+    "Image": "https://i.ndtvimg.com/i/2018-03/kulfi_620x350_51521531449.jpg",
+    "category": "footer4",
     "description":"Badam Kulfi is a popular North Indian dessert recipe, which is loved by people of all age groups! This rich, creamy and delicious Badam Kulfi is not only tempting, but at the same time, it is the best thing to prepare in a jiffy as it doesn't take much time"
   },
   

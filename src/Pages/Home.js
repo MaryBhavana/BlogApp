@@ -35,7 +35,7 @@ const Home = () => {
                                 articleid={n.id}
                                 imgUrl={n.Image}
                                 title={n.title}
-                                description={n.description.slice(0, 200)}
+                                description={n.description.slice(0, 500)}
                                 author={n.author}
                             />
                         ))
@@ -48,7 +48,7 @@ const Home = () => {
                                 articleid={n.id}
                                 imgUrl={n.Image}
                                 title={n.title}
-                                description={n.description.slice(0, 200)}
+                                description={n.description.slice(0, 500)}
                                 author={n.author}
                             />
                         ))
@@ -61,7 +61,7 @@ const Home = () => {
                                 articleid={n.id}
                                 imgUrl={n.Image}
                                 title={n.title}
-                                description={n.description.slice(0, 200)}
+                                description={n.description.slice(0, 500)}
                                 author={n.author}
                             />
                         ))
@@ -101,6 +101,7 @@ const Home = () => {
 
                     <div className='advertisement'>
                        <p>Advertisement</p>
+                       
                     </div>
                 </div>
                 <h1 style={{marginTop:"40px", display : "inline-block"}}>Latest Stories</h1>

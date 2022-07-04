@@ -174,10 +174,11 @@ nav a.active{
     display: inline-block;
     color: white;
     width: 70% ;
-    height: 600px;
-    background: url("https://thumbs.dreamstime.com/b/internet-information-technology-businessman-hand-showing-concept-75784736.jpg");
-    border-radius: 15px;
+    height: 650px;
+    border-radius: 20px;
     cursor: pointer;
+    position: relative;
+    top:50px;
 }
 .home__first h1{
     padding-top: 300px;
