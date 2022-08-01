@@ -9,12 +9,12 @@ import Fitness from "./Pages/Fitness"
 import Food from "./Pages/Food"
 import SingleBlogPage from "./Pages/SingleBlogPage";
 import './style.css'
-import Details from "./Pages/Details";
+// import Details from "./Pages/Details";
 
 function App() {
   return (
     <div className="App">
-      <Details>
+  
       <Header />
       <BrowserRouter>
       <Nav />
@@ -28,7 +28,7 @@ function App() {
         <Route path=":category/:articleid" element = {<SingleBlogPage/>}/>
       </Routes>
       </BrowserRouter>
-      </Details>
+  
 
 
     </div>

@@ -11,7 +11,7 @@ const Card = (props) => {
             <img src={imgUrl} alt="Not found"/>
           </div>
           <div className='bigcard__data'  >
-            <h5 >{title}</h5>
+            <h3 >{title}</h3>
             <p>{description}....</p>
           </div>
         </div>
