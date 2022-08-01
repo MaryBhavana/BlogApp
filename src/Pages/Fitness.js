@@ -13,7 +13,6 @@ const Fitness = () => {
     return (
         <div>
             <h1 style={{ margin: "20px 10%", display: "inline-block" }}>Fitness</h1>
-            <h1 style={{ margin: "20px 0px 20px 37%", display: "inline-block" }}>Top Posts</h1>
             <div className="main__container">
                 <div className='rightbar'>
                     {

@@ -2,7 +2,6 @@ import React, { useState , useEffect } from 'react'
 
 // import { store } from './Details'
 import Card from '../Component/Card'
-// import SmallCard from '../Component/SmallCard';
 
 const Food = () => {
     // const [detail] = useContext(store);
@@ -16,7 +15,6 @@ const Food = () => {
     return (
         <div>
             <h1 style={{ margin: "20px 10%", display: "inline-block" }}>Food</h1>
-            <h1 style={{ margin: "20px 0px 20px 39%", display: "inline-block" }}>Top Posts</h1>
             <div className="main__container">
                 <div className='rightbar'>
                     {
@@ -31,8 +29,6 @@ const Food = () => {
                         ))
                     }
                 </div>
-
-                
 
                     <div className='advertisement'>
                        <p>Advertisement</p>

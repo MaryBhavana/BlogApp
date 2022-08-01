@@ -2,6 +2,7 @@ import React,{useState , useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import Card from '../Component/Card'
 import CardHome from '../Component/CardHome'
+import SmallCard from '../Component/SmallCard'
 
 
 const Home = () => {
@@ -40,6 +41,7 @@ const[data , setData] = useState([])
                                 articleid={n.id}
                                 imgUrl={n.Image}
                                 title={n.title}
+
                                 description={n.description.slice(0, 250)}
                                 author={n.author}
                             />
@@ -53,7 +55,9 @@ const[data , setData] = useState([])
                                 articleid={n.id}
                                 imgUrl={n.Image}
                                 title={n.title}
+
                                 description={n.description.slice(0, 250)}
+
                                 author={n.author}
                             />
                         ))
@@ -66,7 +70,9 @@ const[data , setData] = useState([])
                                 articleid={n.id}
                                 imgUrl={n.Image}
                                 title={n.title}
+
                                 description={n.description.slice(0, 250)}
+
                                 author={n.author}
                             />
                         ))
@@ -91,10 +97,23 @@ const[data , setData] = useState([])
                         ))
                     }
                 </div>
+                <div className="sidebar2">
+                    {
+                        data.filter((article) => { return article.category === "mix" }).map((n) => (
+                            <SmallCard
+                                articleid={n.id}
+                                imgUrl={n.Image}
+                                description={n.description.slice(0, 200)}
+                                title={n.title.slice(0, 25)}
+                                author={n.author}
+                            />
+                        ))
+                    }
                 
 
                     <div className='advertisement'>
                        <p>Advertisement</p>
+                       
                     </div>
                 </div>
                 <h1 style={{marginTop:"40px", display : "inline-block"}}>Latest Stories</h1>
@@ -142,6 +161,7 @@ const[data , setData] = useState([])
                     }
                 </div>
                     
+    </div>
     </div>
 
   )

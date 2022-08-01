@@ -1,7 +1,6 @@
 import React, { useState , useEffect } from 'react'
 // import { store } from './Details'
 import Card from '../Component/Card'
-// import SmallCard from '../Component/SmallCard';
 
 const Tourism = () => {
     // const [detail] = useContext(store);
@@ -15,7 +14,6 @@ const Tourism = () => {
     return (
         <div>
             <h1 style={{ margin: "20px 10%", display: "inline-block" }}>Tourism: Andhra Pradesh</h1>
-            <h1 style={{ margin: "20px 0px 20px 35%", display: "inline-block" }}>Top Posts</h1>
             <div className="main__container">
                 <div className='rightbar'>
                     {

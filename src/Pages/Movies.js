@@ -16,7 +16,6 @@ const Movies = () => {
     return (
         <div>
             <h1 style={{ margin: "20px 10%", display: "inline-block" }}>MOVIES</h1>
-            <h1 style={{ margin: "20px 0px 20px 32%", display: "inline-block" }}>Top Posts</h1>
             <div className="main__container">
                 <div className='rightbar'>
                     {
@@ -32,7 +31,6 @@ const Movies = () => {
                     }
                 </div>
 
-            
 
                     <div className='advertisement'>
                        <p>Advertisement</p>

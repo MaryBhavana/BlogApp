@@ -15,7 +15,7 @@ const CardHome = (props) => {
                 <p>{description}....</p>
               </div>
             </div>
-            <hr style={{ fontWeigth: "30px", color: "black" }} />
+            {/* <hr style={{ fontWeigth: "30px", color: "black" }} /> */}
           </div></NavLink>
     )
           
